@@ -1,0 +1,6 @@
+print("请输入两个集合")
+setA = eval(input())
+setB = eval(input())
+print("交集：", setA & setB)
+print("并集：", setA | setB)
+print("差集：", setA - setB)
